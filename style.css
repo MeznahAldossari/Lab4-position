@@ -70,12 +70,12 @@ p {
   float: left;
   height: 80vh;
   position: relative;
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .second-shape {
   float: right;
   height: 80vh;
-  margin-right: 10%;
 }
 .first-square {
   width: 8vw;
@@ -83,6 +83,8 @@ p {
   background-color: rgb(11, 247, 168);
   border-radius: 10px;
   display: inline-block;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
 }
 .second-square {
   width: 8vw;
@@ -92,7 +94,9 @@ p {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -110%);
+  transform: translate(-45%, -98%);
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
 }
 .third-square {
   width: 8vw;
@@ -103,6 +107,9 @@ p {
   top: 25%;
   left: 20%;
   transform: translate(0rem, -1ex);
+  border-left: 5px solid black;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
 }
 .fifth-square {
   width: 8vw;
@@ -113,6 +120,8 @@ p {
   top: 25%;
   left: 60%;
   transform: translate(0rem, -1ex);
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
 }
 .sixth-square {
   position: absolute;
@@ -123,6 +132,8 @@ p {
   background-color: rgb(214, 226, 43);
   border-radius: 10px;
   display: inline-block;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
 }
 .second-shape {
   float: left;
@@ -136,6 +147,8 @@ p {
   height: 18vh;
   background-color: rgb(11, 247, 168);
   border-radius: 10px;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
 }
 .second-left {
   width: 8vw;
@@ -145,7 +158,9 @@ p {
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -110%);
+  transform: translate(-50%, -100%);
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
 }
 .third-center {
   width: 8vw;
@@ -156,6 +171,9 @@ p {
   top: 25%;
   left: 20%;
   transform: translate(0rem, -1ex);
+  border-left: 5px solid black;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
 }
 .forth-left {
   width: 8vw;
@@ -166,6 +184,8 @@ p {
   top: 25%;
   left: 60%;
   transform: translate(0rem, -1ex);
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
 }
 .top-rigth {
   position: absolute;
@@ -176,4 +196,6 @@ p {
   background-color: rgb(214, 226, 43);
   border-radius: 10px;
   display: inline-block;
+  border-bottom: 4px solid black;
+  border-right: 4px solid black;
 }

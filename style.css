@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu+Condensed&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Public Sans", sans-serif;
+  margin: 0;
+}
+body {
+  background-color: azure;
+}
+nav {
+  width: 100%;
+  background-color: #7469b6;
+  height: 10vh;
+}
+a {
+  display: inline-block;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-left: 15px;
+  vertical-align: middle;
+  line-height: 2em;
+  color: white;
+}
+strong {
+  font-size: 1.5rem;
+}
+.description {
+  background-color: white;
+}
+.images,
+.info {
+  width: 50%;
+  height: 70vh;
+  background-color: #fffbf5;
+}
+.images {
+  position: relative;
+  float: left;
+}
+
+.info {
+  float: right;
+}
+p {
+  width: 80%;
+  height: 100%;
+  align-content: center;
+  margin: auto;
+  line-height: 1.5em;
+  direction: rtl;
+  text-align: justify;
+}
+.first_image {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.second_image {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+.first-shape,
+.second-shape {
+  width: 40%;
+  margin-top: 5%;
+}
+.first-shape {
+  float: left;
+  height: 80vh;
+  position: relative;
+  margin-left: 10%;
+}
+.second-shape {
+  float: right;
+  height: 80vh;
+  margin-right: 10%;
+}
+.first-square {
+  width: 8vw;
+  height: 18vh;
+  background-color: rgb(11, 247, 168);
+  border-radius: 10px;
+  display: inline-block;
+}
+.second-square {
+  width: 8vw;
+  height: 18vh;
+  background-color: blueviolet;
+  border-radius: 10px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+}
+.third-square {
+  width: 8vw;
+  height: 18vh;
+  background-color: rgb(128, 224, 32);
+  border-radius: 10px;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  transform: translate(0rem, -1ex);
+}
+.fifth-square {
+  width: 8vw;
+  height: 18vh;
+  background-color: rgb(241, 11, 88);
+  border-radius: 10px;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(0rem, -1ex);
+}
+.sixth-square {
+  position: absolute;
+  display: inline-block;
+  right: 0%;
+  width: 8vw;
+  height: 18vh;
+  background-color: rgb(214, 226, 43);
+  border-radius: 10px;
+  display: inline-block;
+}
+.second-shape {
+  float: left;
+  height: 80vh;
+  position: relative;
+  margin-right: 10%;
+}
+.top-left {
+  display: inline-block;
+  width: 8vw;
+  height: 18vh;
+  background-color: rgb(11, 247, 168);
+  border-radius: 10px;
+}
+.second-left {
+  width: 8vw;
+  height: 18vh;
+  background-color: blueviolet;
+  border-radius: 10px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -110%);
+}
+.third-center {
+  width: 8vw;
+  height: 18vh;
+  background-color: rgb(128, 224, 32);
+  border-radius: 10px;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  transform: translate(0rem, -1ex);
+}
+.forth-left {
+  width: 8vw;
+  height: 18vh;
+  background-color: rgb(242, 22, 96);
+  border-radius: 10px;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(0rem, -1ex);
+}
+.top-rigth {
+  position: absolute;
+  display: inline-block;
+  right: 0%;
+  width: 8vw;
+  height: 18vh;
+  background-color: rgb(214, 226, 43);
+  border-radius: 10px;
+  display: inline-block;
+}

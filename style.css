@@ -95,8 +95,9 @@ p {
   top: 70%;
   left: 50%;
   transform: translate(-45%, -98%);
-  border-left: 4px solid black;
+  border-left: 5px solid black;
   border-bottom: 4px solid black;
+  border-right: 4px solid black;
 }
 .third-square {
   width: 8vw;
@@ -109,7 +110,6 @@ p {
   transform: translate(0rem, -1ex);
   border-left: 5px solid black;
   border-bottom: 4px solid black;
-  border-right: 4px solid black;
 }
 .fifth-square {
   width: 8vw;
@@ -159,8 +159,9 @@ p {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -100%);
-  border-left: 4px solid black;
+  border-left: 5px solid black;
   border-bottom: 4px solid black;
+  border-right: 4px solid black;
 }
 .third-center {
   width: 8vw;
@@ -173,7 +174,6 @@ p {
   transform: translate(0rem, -1ex);
   border-left: 5px solid black;
   border-bottom: 4px solid black;
-  border-right: 4px solid black;
 }
 .forth-left {
   width: 8vw;
